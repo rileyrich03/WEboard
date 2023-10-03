@@ -8,7 +8,7 @@ public class Action {
     private int key;
     private Robot rob;
 
-    private Action() {
+    protected Action() {
         key = 0;
         try {
             rob = new Robot();
@@ -16,7 +16,7 @@ public class Action {
             System.exit(0);
         }
     }
-    private Action(int key) {
+    protected Action(int key) {
         this.key = key;
         try {
             rob = new Robot();
