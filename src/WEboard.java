@@ -11,7 +11,7 @@ public class WEboard {
                     running = false;
                     break;
                 default:
-                    System.out.printf("Command %s unkown.", input);
+                    System.out.printf("Command %s unkown.\n", input);
             }
         }
     }
