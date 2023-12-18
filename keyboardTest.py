@@ -1,3 +1,3 @@
 import keyboard
 
-keyboard.write("GEEKS FOR GEEKS\n")
+keyboard.write("WEBoard Start\n")
